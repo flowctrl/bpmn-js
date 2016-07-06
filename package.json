@@ -1,10 +1,11 @@
 {
   "name": "bpmn-js",
-  "version": "0.15.2",
+  "version": "0.16.0",
   "description": "A bpmn 2.0 toolkit and web modeler",
   "scripts": {
     "all": "grunt",
     "dev": "grunt auto-test",
+    "distro": "grunt build",
     "test": "grunt test"
   },
   "repository": {
@@ -71,7 +72,7 @@
   },
   "dependencies": {
     "bpmn-moddle": "^0.12.0",
-    "diagram-js": "^0.16.0",
+    "diagram-js": "^0.16.2",
     "diagram-js-direct-editing": "^0.15.1",
     "diagram-js-origin": "^0.14.0",
     "ids": "^0.2.0",
